@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-rasterizer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-slideshow.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-squiggle.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-svgpp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-ttf2svg.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-anim.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-awt-util.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-bridge.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-codec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-css.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-dom.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-ext.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-extension.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-gui-util.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-gvt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-parser.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-rasterizer-ext.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-script.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-squiggle-ext.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-svg-dom.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-svggen.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-swing.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-transcoder.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-util.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/ext/batik-xml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

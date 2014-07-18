@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/_06_JavaExamPrep/src/_04_Exam4/P2Illuminati.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="_04_Exam4.P2Illuminati"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="_06_JavaExamPrep"/>
+</launchConfiguration>
