@@ -7,8 +7,8 @@ public class emmit {
 		int last = 13;
 		int key = 205;
 		int[] arr = {4, 7, 19, 25, 36, 37, 50, 100, 101, 205, 220, 271, 306, 231};
+		System.out.println();
 		int mid;
-		int count = 1;
 		while (first <= last) {
 			mid = (first+last)/2;
 			if (arr[mid] == key) {
@@ -18,9 +18,7 @@ public class emmit {
 				first = mid + 1;
 			else 
 				last = mid -1;
-			count++;
 		}
-		System.out.println(count);
 	}
 
 }
