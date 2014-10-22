@@ -1,0 +1,23 @@
+package _01_Geometry;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		Scanner inp = new Scanner(System.in);
+		
+		Triangle gosho = new Triangle(15, 15, 28, 18, 23, 30);
+		SquarePyramid pesho = new SquarePyramid(4, 5, 2, 5, 9);
+		
+		List<Shape> figures = new ArrayList<Shape>();
+		figures.add(gosho);
+		figures.add(pesho);
+		
+		for (Shape shape : figures) {
+			System.out.println(shape);
+		}
+	}
+}

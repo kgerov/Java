@@ -1,0 +1,17 @@
+package _01_Geometry;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		Scanner inp = new Scanner(System.in);
+		System.out.println("Hola");
+		
+		List<Vertex> vertices = new ArrayList<Vertex>();
+		vertices.add(new Vertex2D(3.4, 5.6));
+	}
+
+}

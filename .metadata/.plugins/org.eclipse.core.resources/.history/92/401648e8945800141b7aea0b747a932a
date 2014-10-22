@@ -1,0 +1,21 @@
+package _02_LevShop;
+
+public class PurchaseManager {
+	public static void processPurchase(Product product, Customer customer) {
+		if (!isInStock()) {
+			throw new Exception("Product is Out of Stock");
+		}
+		
+		if () {
+			
+		}
+	}
+	
+	private boolean isInStock() {
+		
+	}
+	
+	private boolean isExpired() {
+		
+	}
+}

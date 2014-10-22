@@ -1,0 +1,19 @@
+package _02_LevShop;
+
+public class ElectronicProduct extends Product{
+	private int guaranteePeriod;
+
+	public ElectronicProduct(String name, double price, int quantity,
+			AgeRestriction ageRestrict, int guaranteePeriod) {
+		super(name, price, quantity, ageRestrict);
+		this.guaranteePeriod = guaranteePeriod;
+	}
+
+	public int getGuaranteePeriod() {
+		return guaranteePeriod;
+	}
+
+	public void setGuaranteePeriod(int guaranteePeriod) {
+		this.guaranteePeriod = guaranteePeriod;
+	}
+}

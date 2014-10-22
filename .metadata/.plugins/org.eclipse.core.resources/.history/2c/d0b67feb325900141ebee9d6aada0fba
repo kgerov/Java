@@ -1,0 +1,10 @@
+package _02_LevShop;
+
+public class Appliance extends ElectronicProduct{
+
+	public Appliance(String name, double price, int quantity,
+			AgeRestriction ageRestrict, int guaranteePeriod) {
+		super(name, price, quantity, ageRestrict, guaranteePeriod);
+	}
+
+}

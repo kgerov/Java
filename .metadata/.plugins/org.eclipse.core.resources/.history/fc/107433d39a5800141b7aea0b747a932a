@@ -1,0 +1,35 @@
+package _02_LevShop;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Tester {
+	
+	public static void main(String[] args) throws ParseException {
+		DateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+		Date date = formatter.parse("15/01/2016");
+		
+		FoodProduct cigars = new FoodProduct("420 Blaze it fgt", 6.90, 1400, AgeRestriction.ADAULT, date);
+		Customer pecata = new Customer("Pecata", 17, 30.00);
+		Customer gopeto = new Customer("Gopeto", 18, 0.44);
+		
+		try {
+			PurchaseManager.processPurchase(pecata, cigars);
+		} catch (AgeRestrictionException e) {
+			System.out.println("You are too young to buy this product!");
+		} catch (Exception e) {
+			System.out.println("Other");
+		}
+		
+		try {
+			PurchaseManager.processPurchase(gopeto, cigars);
+		} catch (AgeRestrictionException e) {
+			System.out.println("You do not have enough money to buy this product!");
+		} catch (Exception e) {
+			System.out.println("Other");
+		}
+	}
+
+}

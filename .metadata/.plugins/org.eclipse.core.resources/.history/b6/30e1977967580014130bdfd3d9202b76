@@ -1,0 +1,15 @@
+package _01_Geometry;
+
+import java.util.List;
+
+public abstract class Shape {
+	protected List<Vertex> vertices;
+
+	public List<Vertex> getVertices() {
+		return vertices;
+	}
+
+	public void setVertices(List<Vertex> vertices) {
+		this.vertices = vertices;
+	}
+}

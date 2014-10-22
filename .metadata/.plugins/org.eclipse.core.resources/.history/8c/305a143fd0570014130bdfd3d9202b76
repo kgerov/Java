@@ -1,0 +1,25 @@
+package _01_Geometry;
+
+import java.util.Iterator;
+import java.util.List;
+
+public abstract class PlaneShape extends Shape implements PerimeterMeasurable, AreaMeasurable{
+	
+	public PlaneShape(List<Vertex> vertices) {
+		super(vertices);
+	}
+	
+	public abstract double Area();
+
+	public abstract double Perimeter();
+	
+	private boolean check2D(List<Vertex> vertices) { 
+		for (Vertex vertex : vertices) {
+			if (vertex.getClass().getName() != "Vertex2D") {
+				return false;
+			}
+		}
+		
+		return true;
+	}
+}

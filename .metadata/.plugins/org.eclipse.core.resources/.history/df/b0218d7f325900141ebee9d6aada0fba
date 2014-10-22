@@ -1,0 +1,11 @@
+package _02_LevShop;
+
+public class Computer extends ElectronicProduct{
+	
+	public Computer(String name, double price, int quantity,
+			AgeRestriction ageRestrict, int guaranteePeriod) {
+		super(name, price, quantity, ageRestrict, guaranteePeriod);
+		
+	}
+	
+}

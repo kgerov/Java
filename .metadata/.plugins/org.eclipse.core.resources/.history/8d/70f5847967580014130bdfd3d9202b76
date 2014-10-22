@@ -1,0 +1,15 @@
+package _01_Geometry;
+
+import java.util.ArrayList;
+
+public abstract class PlaneShape extends Shape implements PerimeterMeasurable, AreaMeasurable{
+	
+	public PlaneShape(double x, double y) {
+		this.vertices = new ArrayList<Vertex>();
+		this.vertices.add(new Vertex2D(x, y));
+	}
+	
+	public abstract double Area();
+
+	public abstract double Perimeter();
+}
