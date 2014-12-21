@@ -1,7 +1,0 @@
-package _02_LevShop;
-
-public class AgeRestrictionException extends Exception {
-	public ExpirationException(String message) {
-        super(message);
-	}
-}
